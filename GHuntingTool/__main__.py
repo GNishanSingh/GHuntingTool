@@ -1,7 +1,7 @@
 import click
-from GHuntingTool.DNSBLDetails import *
-from GHuntingTool.EmailDetails import *
-from GHuntingTool.WhoisLookup import *
+from GHuntingTool.Tools.DNSBLDetails import *
+from GHuntingTool.Tools.EmailDetails import *
+from GHuntingTool.Tools.WhoisLookup import *
 @click.group(invoke_without_command=True)
 @click.pass_context
 def GHuntingTool(ctx):
